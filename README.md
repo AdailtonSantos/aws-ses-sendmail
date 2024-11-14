@@ -1,17 +1,22 @@
-### Função desenvolvida para envio de emails utilizando o SES da AWS.
-### Na função são passados os parâmetros:
+# Função de Envio de Emails com AWS SES
 
-### from: O remetende que irá enviar o email
-### destination: O destinatário que irá receber
-### subject: O assunto do email
-### body: O conteúdo do corpo do email, que nesta função precisa ser uma string comum
+Esta função foi desenvolvida para o envio de emails utilizando o SES da AWS.
 
-### Para enviar html no corpo do email, basta substituir o "Text" na linha 25 por "HTML".
+## Parâmetros da Função
 
-# Dependências do npm:
-### Dotenv
-### aws-sdk
+- **from**: O remetente que irá enviar o email.
+- **destination**: O destinatário que irá receber.
+- **subject**: O assunto do email.
+- **body**: O conteúdo do corpo do email, que nesta função precisa ser uma string comum.
 
-# Variáveis do dotenv:
-### AWS_SECRET_KEY
-### AWS_SECRET_ACCESS_KEY
+> Para enviar HTML no corpo do email, basta substituir "Text" na linha 25 por "HTML".
+
+## Dependências do npm
+
+- `dotenv`
+- `aws-sdk`
+
+## Variáveis do dotenv
+
+- `AWS_SECRET_KEY`
+- `AWS_SECRET_ACCESS_KEY`
