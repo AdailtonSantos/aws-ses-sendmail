@@ -1,2 +1,7 @@
-# aws-ses-sendmail
-Função de envio de email utilizando o SES da Aws.
+## Dependências do npm:
+### Dotenv
+### aws-sdk
+
+## Váriáveis do dotenv:
+### AWS_SECRET_KEY
+### AWS_SECRET_ACCESS_KEY
